@@ -4,7 +4,7 @@
   <title>Realistic Abundance</title>
   <style>
    body { background-color: black; display: flex;
-    color: #c0c0c0;
+    color: #c0c0c0; margin: 0; padding: 0;
     flex-direction: column; height: 100vh; }
    realistic, abundance {
     display: flex;
@@ -20,6 +20,15 @@
    }
    scene {
     flex-grow: 1;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    jusify-content: center;
+    padding: 0 3%;
+    box-sizing: border-box;
+   }
+   h1 {
+    font-size: 34px;
    }
    h1, h2, h3, h4, h5, h6, p {
     margin: 0;
@@ -27,21 +36,69 @@
    }
    body, input {
     font-family: monospace;
+    line-height: 1.4;
+   }
+   main {
+    background-color: #797979;
+    mix-blend-mode: difference;
+    color: #000;
+    width: 100%;
+    min-height: 25vh;
+   }
+   strong {
+    font-weight: 700;
+    font-size: 140%;
    }
   </style>
  </head>
  <body>
   <realistic>
-   <scene><h1>realistic</h1></scene>
-   <scene></scene>
-   <scene><p>under</p></scene>
-   <scene></scene>
+   <scene>
+    <p>THE PRINCIPLES OF</p>
+    <h1>realistic</h1>
+   </scene>
+   <scene><main>
+    <h2>understand the cost</h2>
+    <p>investigate the total amount of energy to be spent</p>
+   </main></scene>
+   <scene><main>
+    <h2>time</h2>
+    <p>understand the project timeframe</p>
+   </main></scene>
+   <scene><main>
+    <h2>who</h2>
+    <p>understand the target audience</p>
+    <p>team or solo project</p>
+   </main></scene>
+   <scene><main>
+    <h2>where</h2>
+    <p>understand the location the project will occupy, physically or conceptually</p>
+   </main></scene>
   </realistic>
   <abundance>
-   <scene><h1>abundance</h1></scene>
-   <scene></scene>
-   <scene><p>construction</p></scene>
-   <scene></scene>
+   <scene>
+   <h1>abundance</h1>
+   <h1>&mdash;</h1>
+   <p><strong>realistic abundance</strong> is a conceptual framework for artists and creators, to support the emergence of a sustainable psycho-revolution to increase the individual's self-knowledge, in hopes that this leads to a highly compassionate, humane planet</p>
+   <p>
+    created by <a target="_blank" href="https://nateferrero.com">Nate Ferrero</a>
+   </p>
+   </scene>
+   <scene><main>
+    <h2>discover and meet human needs</h2>
+    <p>all humans should have adequate nutrition, safe housing, and be protected from all forms of danger</p>
+   </main></scene>
+   <scene><main>
+    <h2>continuously increase human freedom</h2>
+    <p>new freedoms should be discovered, established, and celebrated as often as possible</p>
+   </main></scene>
+   <scene><main>
+    <h2>the human singularity</h2>
+    <p>a convergence of global thought to advance human self-understanding</p>
+   </main></scene>
+   <scene><main>
+    <h2>compassion</h2>
+    <p>deep respect for all living beings, and the ecosystem which sustains them (us)</p></main></scene>
   </abundance>
  </body>
 </html>
